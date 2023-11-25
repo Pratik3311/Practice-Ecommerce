@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.bag-items-container
+{
+    margin: 15px;
+    display: inline-block;
+    width: 55%;
+    padding-right: 25px;
+    border-right: 2px solid rgb(71, 71, 71);
+    padding-top: 32px;
+    color: #282c3f;
+    font-size: 13px;
+    line-height: 1.42857143;
+    
+    
+
+    
+
+}
+.bag-item-img{
+    height: 250px;
+    border: 1px solid gray;
+    
+}
+.item-left-part{
+    position: absolute;
+    margin-left: 25px;
+    
+}
+.item-right-part{
+    padding-left: 12px;
+  position: relative;
+  min-height: 148px;
+  margin-left: 350px;
+  margin-bottom: 12px;
+  
+}
+
+.company{
+    font-size: 25px;
+    color: rgb(68, 68, 68);
+    margin-bottom: 10px;
+    }
+
+.item-name{
+    color: black;
+    font-size: 15px;
+    word-spacing: 5px;
+   
+}
+.current-price{
+    font-size: 14px;
+    font-weight: 700;
+    color: #282c3f;
+}
+.original-price{
+    text-decoration: line-through;
+    color: #7e818c;
+    font-weight: 400;
+    margin-left: 5px;
+    font-size: 12px;
+}
+.discount-percentage{
+    color: #ff905a;
+    font-weight: 400;
+    font-size: 12px;
+    margin-left: 5px;
+}
+.remove-from-cart {
+    position: absolute;
+    font-size: 25px;
+    top: -7px;
+    right: 0px;
+    width: 14px;
+    height: 14px;
+    cursor: pointer;
+  }
+  
+ .price-container{
+    margin-top: 15px;
+ }
+
+ .bag-price{
+    vertical-align: top;
+  display: inline-block;
+  width: 35%;
+  padding: 24px 0 0 16px;
+  color: #282c3f;
+  font-size: 13px;
+  line-height: 1.42857143;
+ }
+
+ .price-header{
+    font-size: 12px;
+    font-weight: 700;
+    margin: 24px 0 16px;
+    color: #535766;
+ }
+
+ .price-item{
+    margin-bottom: 10px;
+ }
+ .value{
+    float: right;
+ }
+
+  .price-footer{
+    margin-top: 15px;
+  }
+
+  .btn-place-order{
+    margin-top: 10px;
+    height: 35px;
+    width: 100%;
+    background-color:rgb(89, 89, 225);
+    color: white;
+    border: none;
+    cursor: pointer;
+    word-spacing: 5px;
+    font-size: 15px;
+    border-radius: 5px;
+  }
+
+  .btn-place-order:hover{
+    
+    box-shadow: 0 5px 15px #2e3437;
+  }
+
+  .bag-item-container{
+    margin-bottom: 8px;
+    background: #fff;
+    font-size: 14px;
+    border: 1px solid #eaeaec;
+    border-radius: 4px;
+    position: relative;
+    padding: 12px 12px 0;
+    height: 300px;
+    box-shadow: 0 5px 15px #2e3437;
+  }
+
+  .message{
+    display: none;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 1;
+  }

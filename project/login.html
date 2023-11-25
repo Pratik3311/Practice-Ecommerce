@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<style>
+    input{
+        display: flex;
+        height: 33px;
+        width: 300px;
+        margin: 10px;
+        border: 1px solid black;
+        border-radius: 5px;
+    }
+
+    button{
+        margin: 10px;
+    height: 35px;
+    width: 57px;
+    background-color:rgb(89, 89, 225);
+    color: white;
+    border: none;
+    cursor: pointer;
+    word-spacing: 5px;
+    font-size: 15px;
+    border-radius: 5px;
+    }
+
+    .container{
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+
+      
+    }
+
+    #display{
+        
+            font-size: 15px;
+            width: 30px;
+            height: 30px;
+            background-color: white;
+            color: black;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            margin-top: 5px;
+            border: 2px solid black;
+            text-decoration: none;
+            
+            
+    }
+</style>
+<body>
+
+
+    <header>
+        <div class="logo">
+          <a href="index.html"><img src="icons/logo.png" alt="" class="logo-img" /></a>
+        </div>
+  
+        <nav class="tags">
+          <a href="mens.html">Mens Wear</a>
+          <a href="#">Women Wear</a>
+          <a href="#">Kids Wear</a>
+          <a href="#">Appliance</a>
+          <a href="#">Electronics</a>
+        </nav>
+  
+        <div class="icons">
+          <div class="search-icon">
+            <input
+              type="text"
+              placeholder="Search.."
+              name="search"
+              class="input"
+            />
+          </div>
+          
+  
+          <div class="profile-icon">
+            <a href="login.html"><div id="display">'</div></a>
+          </div>
+  
+          <div class="bag-icon">
+            <a href="bag.html"><img src="icons/bag_2662503.png" alt="" /></a>
+            <span class="itemCount">0</span>
+          </div>
+        </div>
+      </header>
+    <div class="container">
+
+    
+    <h1>Login to Buy Products</h1>
+    <input type="text" id="name" placeholder="Enter Your Name">
+    <input type="text" placeholder="Enter Your Email">
+    <input type="password" id="password">
+    <button onclick="display()">submit</button>
+   </div>
+
+
+
+
+
+    <script src="index.js"></script>
+    <script src="bag.js"></script>
+    <script src="bag.js"></script>
+    <script src="login.js"></script>
+</body>
+</html>
